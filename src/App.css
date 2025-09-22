@@ -1,0 +1,67 @@
+.app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #2980b9;
+  margin-top: 25px;
+}
+
+h3 {
+  color: #16a085;
+  margin-top: 20px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.notes-section {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border-left: 4px solid #3498db;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #7f8c8d;
+  text-align: center;
+}
