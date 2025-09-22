@@ -5,9 +5,135 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment Notes App</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+      }
+      h1 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: #2980b9;
+        margin-top: 25px;
+      }
+      h3 {
+        color: #16a085;
+        margin-top: 20px;
+      }
+      p {
+        margin: 10px 0;
+      }
+      ul, ol {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      .notes-section {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        border-left: 4px solid #3498db;
+      }
+      .actions {
+        display: flex;
+        gap: 15px;
+        margin: 20px 0;
+      }
+      button {
+        background: #3498db;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      button:hover {
+        background: #2980b9;
+      }
+      .footer {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #7f8c8d;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <h1>Assignment Notes App</h1>
+    <p>Read the assignment instructions and take notes</p>
+    
+    <h2>Assignment Instructions</h2>
+    <p>ALL 124 - Assignment 3: Team Argumentation Presentation<br>
+    Due: 31 October | Weight: 30 marks | Format: In-class or Digital Narrative Presentation</p>
+    
+    <h3>Instructions:</h3>
+    <p>Choose ONE theme from Assignment 2 (Unemployment, Corruption, Entrepreneurship, etc.). Form a team of 3–5 students.</p>
+    <p>Develop a structured argumentative presentation taking a clear position on a debatable issue within your chosen theme.</p>
+    
+    <h3>Requirements:</h3>
+    <ol>
+      <li>Use the articles from Assignment 2 as your primary evidence.</li>
+      <li>Cite sources using Harvard style (in-slide or in-narrative).</li>
+      <li>Include at least one visual (graph, chart, or diagram) to support your argument; this can be GenAI.</li>
+      <li>Acknowledge and refute one credible counterargument.</li>
+      <li>Ensure equal contribution from all team members.</li>
+    </ol>
+    
+    <h3>Evaluation Criteria (30 marks total):</h3>
+    <ul>
+      <li>a) Clarity and strength of argument (8)</li>
+      <li>b) Use of evidence from required texts (6)</li>
+      <li>c) Visual aid effectiveness (5)</li>
+      <li>d) Acknowledgement and rebuttal of counterarguments (5)</li>
+      <li>e) Team coordination and contribution (4)</li>
+      <li>f) Strong, concise conclusion (2)</li>
+    </ul>
+    
+    <h3>Format:</h3>
+    <ul>
+      <li>Max 8-10 minutes presentation</li>
+      <li>Submit slides or digital narrative link via clickUP (Turnitin-enabled)</li>
+      <li>Presentation should be uncluttered and all text should be clearly visible.</li>
+    </ul>
+    
+    <h3>Extra credit:</h3>
+    <p>Include x2 examples of meaningful and effective translanguaging that supports both the written text and the graphic or image.</p>
+    
+    <div class="notes-section">
+      <h2>Your Notes</h2>
+      <p>Start taking notes about the assignment here...</p>
+      
+      <h3>You can write about:</h3>
+      <ul>
+        <li>Your chosen theme</li>
+        <li>Team members and their roles</li>
+        <li>Key arguments and evidence</li>
+        <li>Visual aids ideas</li>
+        <li>Counterarguments to address</li>
+        <li>Presentation structure</li>
+        <li>Important deadlines and requirements</li>
+      </ul>
+      
+      <div class="actions">
+        <button>Save Notes</button>
+        <button>Download as .txt</button>
+        <button>Email Notes</button>
+        <button>Clear Notes</button>
+      </div>
+    </div>
+    
+    <p>Use this app to understand the assignment requirements and organize your thoughts.</p>
+    <p class="footer">Remember to save your notes regularly and download them as a backup.</p>
   </body>
 </html>
+he design is clean, mobile-responsive, and focuses on making the assignment instructions easy to read while providing clear visual hierarchy for all content sections.
