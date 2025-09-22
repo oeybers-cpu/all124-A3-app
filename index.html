@@ -90,6 +90,8 @@
             animation: glow 1.5s ease-in-out infinite alternate;
             width: 95%;
             max-width: 600px;
+            position: relative;
+            z-index: 100;
         }
         
         .glowing-tab-link {
@@ -477,16 +479,15 @@
             </ul>
         </div>
     </div>
-    
-    <!-- NEW: Glowing Tab Link for Assignment 3 -->
-    <div class="glowing-tab">
-        <a href="https://oeybers-cpu.github.io/all124-A3-app/" class="glowing-tab-link">
-            🚀 ASSIGNMENT 3 FOCUS: Team Argumentation Presentation
-        </a>
-        <p class="glowing-tab-note">Ready for Assignment 3? Use this tool to plan your team presentation.</p>
-    </div>
 
     <div class="container">
+        <!-- NEW: Glowing Tab Link for Assignment 3 - MOVED INSIDE CONTAINER -->
+        <div class="glowing-tab">
+            <a href="https://oeybers-cpu.github.io/all124-A3-app/" class="glowing-tab-link">
+                🚀 ASSIGNMENT 3 FOCUS: Team Argumentation Presentation
+            </a>
+            <p class="glowing-tab-note">Ready for Assignment 3? Use this tool to plan your team presentation.</p>
+        </div>
 
         <h1>ALL 124 APP</h1>
         <p style="text-align:center; font-size:15px; color:#666; margin-bottom:20px;">Assignment 2: Critical Reading Reflection — Mobile-Optimised Guide</p>
@@ -700,3 +701,4 @@
     </div>
 </body>
 </html>
+is solution ensures the glowing tab is always fully visible, regardless of screen size, and fits naturally within the content structure of the page.
